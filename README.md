@@ -1,6 +1,6 @@
 # RC4 Cipher
 
-The RC4 cipher is one of the most widely used stream ciphers and continues to be used despite its exclusion from security standards.
+El cifrado RC4 es uno de los sistemas de cifrado en flujo más utilizados, aún habiendo sido excluido de cualquier estandar de alta seguridad.
 
 ## Utilización
 ```
@@ -8,7 +8,7 @@ python GUI.py
 ```
 
 ## Cómo funciona
-This cipher is based on the following steps:
+Este cifrado se basa en los siguientes dos algoritmos, uno se encarga de generar el estado inicial a partir de una clave, y el otro de generar el byte que usaremos para realizar la suma binaria con lo que vayamos a cifrar:
 
 - Key Scheduling Algorithm:
     ```
@@ -34,6 +34,7 @@ This cipher is based on the following steps:
         Use S[t] value
     }
     ```
+    
 ## Contribuir
 Las solicitudes de modificación son bienvenidas. Para los cambios importantes, por favor, abra una cuestión en primer lugar para discutir lo que le gustaría cambiar.
 
