@@ -1,10 +1,6 @@
-from ast import Num
-import numbers
-from operator import imod
-from tkinter import Tk, Button, Label, Text, Entry, Canvas,  END, DISABLED, NORMAL, messagebox
+from tkinter import Tk, Button, Label, Text, Entry, Canvas,  END, DISABLED, NORMAL
 from RC4 import *
 from conversor import txt_to_bytes, bytes_to_txt
-import re
 
 # Main window
 base = Tk()
