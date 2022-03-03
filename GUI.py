@@ -51,7 +51,7 @@ def gui_RC4(mode):
         keySeedText.insert(END, bytes_to_txt(keySeed))
 
     # Encrypt
-    output = RC4(keySeed, input)
+    output = RC4_Console(keySeed, input)
 
     # Output
     outputText.config(state=NORMAL)
